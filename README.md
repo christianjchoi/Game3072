@@ -20,7 +20,7 @@
 - quit : exit the game
 
 
-**Gameplay**
+# Gameplay
 
 ```
 3072: start
