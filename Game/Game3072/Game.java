@@ -66,7 +66,7 @@ class Game {
     void doCommand() {
         try {
             Command cmnd =
-                Command.parseCommand(_input.getLine("2048: "));
+                Command.parseCommand(_input.getLine("3072: "));
             Command.Type t = cmnd.commandType();
             String[] op = cmnd.operands();
             _commands.get(t).accept(op);
