@@ -105,6 +105,9 @@ class Board {
                 lst.set(i, lst.get(i) * 2);
                 lst.set(i + 1, 0);
                 score += lst.get(i);
+                if ((int) lst.get(i) == 3072) {
+                    System.out.println("Congratulations! You Win!");
+                }
             }
         }
         for (int i = 0; i < lst.size() - 1; i += 1) {
