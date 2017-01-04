@@ -100,6 +100,7 @@ Score: 30852
 
 
 3072    3       -       3
+
 Congratulations! You win!
 
 ```
