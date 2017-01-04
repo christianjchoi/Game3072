@@ -6,6 +6,7 @@
 - Undo up to Three Moves per Game
 - Reset Game at any Point to Start Over
 - High Scores Records Updated at End of each Game
+- Play Beyond the Just the 3072 Tile
 
 # Commands
 
