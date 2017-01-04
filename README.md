@@ -1,5 +1,25 @@
 # Game3072
 
+# Features
+
+- WASD Key Commands to Indicate Up, Down, Left, Right
+- Undo up to Three Moves per Game
+- Reset Game at any Point to Start Over
+- High Scores Records Updated at End of each Game
+
+# Commands
+
+- w : up
+- a : left
+- s : down
+- d : right
+- start : start a game
+- reset : reset the game
+- highscores : display high scores
+- undo : undo a move
+- quit : exit the game
+
+
 **Gameplay**
 
 ```
