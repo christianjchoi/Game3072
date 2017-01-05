@@ -213,7 +213,7 @@ class Game {
 
     /** Starts the game. */
     void doStart(String[] operands) {
-        checkState("Start", "before");
+        checkState("start", "before");
         state = "playing";
         doPrint();
     }
@@ -223,6 +223,8 @@ class Game {
         state = "before";
         board = new Board();
         prevBoards.clear();
+        prevScores.clear();
+        undoCount = 3;
     }
 
     /** Exits the game. */
