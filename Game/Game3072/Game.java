@@ -152,6 +152,7 @@ class Game {
                     + " undos remaining.");
             } else {
                 System.out.println("There is nothing to undo.");
+                undoCount += 1;
             }
         } else {
             System.out.println("You don't have any undos left.");
